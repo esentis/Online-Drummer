@@ -36,7 +36,7 @@ function checkChar(character){
       break;
 
     case "l":
-      var snare = new Audio("sounds/snare.mp3");
+      var snare = new Audio("/sounds/snare.mp3");
       snare.play();
       break;
     default:
